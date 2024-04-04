@@ -49,9 +49,9 @@ def ender():
     os.system(PiD)
     print("program terminated")
 
-#Application loop
-isWorking = True
 isBackwardMotorActive = False
+isWorking = True
+#Application loop
 while isWorking:
     #loop speed reduction
     sleep(0.01)
@@ -71,8 +71,12 @@ while isWorking:
         if event.type == pygame.JOYBUTTONDOWN:
             if event.joy == pad.get_id():
                 index = event.button
-                if index == 5:
+
+                #if True end program
+                if index == 5: # 5 is index of button that on Dualsense stands for PS button
                     isWorking = False
                     ender()
-                elif index == 4:
+                
+                #if True disable current DC motor, and enable opposite directrion DC motor
+                elif index == 4: # 4 is index of button that on Dualsense stands for "Create" button
                     isBackwardMotorActive = not isBackwardMotorActive
