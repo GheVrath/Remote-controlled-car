@@ -59,3 +59,8 @@ Other needed stuff:
 Bluetooth controller (tested with Sony Dualsense controller, other may need some easy changes in code)
 Some tape and hot glue
 Soldering iron, tin and rosin
+
+Car width: 160mm / 6.29"
+Car length: 290mm / 11.41"
+Car height: 80mm / 3.14"
+Car weight: 500g / 17.63(oz)
