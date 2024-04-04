@@ -7,7 +7,7 @@ Optional: Code editor - to make some changes in code
 Also some basic 3D printing knowledge
 
 Keep in mind it would be better to use DC motor controller rather than this solution, non the less it works,
-it's cheaper and gives basic understanding of how transistors work. 
+it's cheaper and gives basic understanding of how MOSFETs work. 
 
 3D printer that was used: Ender 3 v3 SE with 0.4 nozzle
 Keep in mind that some dimensions will be off due to printer differences and accuracy
@@ -40,7 +40,7 @@ Some other libraries may be needed as whole process wasn't recorded
 
 Elements:
 Raspberry Pi zero W
-Two DC micro motors pololu 12v with gears. Recommended 1:50
+Two DC micro motors Pololu 12v with gears. Recommended ratio 1:50
 Two transistors MOSFET-N type. Recommended  IRFZ44N
 Two resistors at least 1000 ohms
 Servomechanism 180degrees micro. Recommended Okystar SG-90 micro OR MG-90S - micro
@@ -59,4 +59,3 @@ Other needed stuff:
 Bluetooth controller (tested with Sony Dualsense controller, other may need some easy changes in code)
 Some tape and hot glue
 Soldering iron, tin and rosin
-
