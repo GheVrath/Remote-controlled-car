@@ -39,9 +39,10 @@ sudo pip3 install gpiozero
 Some other libraries may be needed as whole process wasn't recorded
 
 Elements:
+Switch button
 Raspberry Pi zero W
 Two DC micro motors Pololu 12v with gears. Recommended ratio 1:50
-Two transistors MOSFET-N type. Recommended  IRFZ44N
+Two transistors MOSFET-N type. Recommended IRFZ44N
 Two resistors at least 1000 ohms
 Servomechanism 180degrees micro. Recommended Okystar SG-90 micro OR MG-90S - micro
 Two Schottky diodes. Recommended SB560
@@ -52,8 +53,12 @@ Springs that will connect and hold batteries
 Some shafts (or similar cylinder) Two: 3x20mm AND Four 3:10mm
 Two bearings 3x8x3mm [inner hole X outter size X depth]
 About 3 screws with nuts M2 10mm
-Some wires at least 0.5mm core
-Rubber that will work as a tire for 4 wheels
+Some wires at least 0.5mm core (for batteries connetcions use much thicker) Recommended: 1mm core
+Rubber that will work as a tire for 4 wheels example: Bicycle puncture
+
+Optional changes:
+In case logic level transistor instead of IRFZ44N additional 1.5v batteries may be not needed
+Instead of 4 18650 batteries and step up converter - 3 batteries and usb step down converter or other variations
 
 Other needed stuff:
 Bluetooth controller (tested with Sony Dualsense controller, other may need some easy changes in code)
