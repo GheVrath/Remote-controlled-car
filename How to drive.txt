@@ -3,9 +3,10 @@ Run python script on Raspberry Pi Zero
 
 Left joystick UP - Forward
 Left joystick DOWN - Backward
-Create button or equivalent - Change direction forward/backward
+Create button (or equivalent) - Change direction forward/backward
 Right joystick LEFT - turn left
 Right joystick RIGHT - turn right
+PS button (or equivalent) - end program
 
 As this is opensource, You can change it to fit Your needs 
 
